@@ -1,0 +1,67 @@
+#projtitle{
+    font-size: 70px;
+    height: 30px;
+    font-family: Franklin Gothic Medium;
+    font-weight:bolder;
+    font-style: oblique;
+    text-align: center;
+    color:rgb(1, 102, 22);
+    animation: title-animation 10s infinite alternate-reverse; 
+}
+
+.bigheader{
+    text-align: center;
+    font-size: 35px;
+    font-style:oblique;
+    font-weight:1000px;
+    font-family: Arial Narrow Bold;
+    color:rgb(13, 80, 0);
+    background-color: blanchedalmond;
+}
+
+.medheader{
+    color:blueviolet;
+    font-weight:bold;
+    text-align: left;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.paracontent{
+    font-size: 25px;
+    padding-left: 100px ;
+    line-height: 40px;
+    scrollbar-width: 50px;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    gap:20px;
+    text-decoration: dotted;
+    background-color: rgb(251, 251, 251);
+}
+.btns{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: rgb(255, 200, 200);
+    color:rgb(0, 0, 0);
+    border:none;
+    border-radius:15px;
+    height:40px;
+}
+
+.btns:hover{
+    background-color: orange;
+    box-shadow: 5px 2px 50px;
+}
+
+@keyframes title-animation {
+    0%{
+        text-shadow: 2px 2px rgb(21, 0, 255);
+    }
+    100% {
+        text-shadow: 2px 5px rgb(255, 0, 208);
+    }
+}
