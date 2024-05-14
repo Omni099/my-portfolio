@@ -9,6 +9,15 @@
     animation: title-animation 10s infinite alternate-reverse; 
 }
 
+@keyframes title-animation {
+    0%{
+        text-shadow: 2px 2px rgb(21, 0, 255);
+    }
+    100% {
+        text-shadow: 2px 5px rgb(255, 0, 208);
+    }
+}
+
 *{
     margin:0px;
     padding:0px;
