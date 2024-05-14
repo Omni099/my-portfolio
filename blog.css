@@ -6,7 +6,7 @@
     font-style: oblique;
     text-align: center;
     color:rgb(1, 102, 22);
-    text-shadow: 2px 2px rgb(21, 0, 255);
+    animation: title-animation 10s infinite alternate-reverse; 
 }
 
 *{
